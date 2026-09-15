@@ -63,18 +63,18 @@ const PROMO_FLYERS_DATA = {
     description: 'Inicia tu camino hacia una sonrisa perfecta con una evaluación completa realizada por especialistas en Jesús María. Incluye diagnóstico visual y plan de tratamiento personalizado.',
     priceOptions: [
       {
-        label: 'EVALUACIÓN CLÍNICA COMPLETA',
+        label: 'CONSULTA CLÍNICA',
         price: 'GRATIS',
-        normalPrice: 'S/ 50',
+        normalPrice: 'S/ 30',
         featured: true,
-        badge: '100% LIBRE'
+        badge: '100% GRATIS (VALOR S/ 30)'
       },
       {
         label: 'DIAGNÓSTICO + PLAN INTEGRAL',
-        price: 'S/ 0',
-        normalPrice: 'S/ 70',
+        price: 'GRATIS',
+        normalPrice: 'S/ 50',
         featured: false,
-        badge: 'SIN COSTO'
+        badge: 'INCLUIDO (VALOR S/ 50)'
       }
     ],
     schedule: [
@@ -138,25 +138,25 @@ const PROMO_FLYERS_DATA = {
     brand: 'MIADENT',
     category: 'ORTODONCIA & ALINEACIÓN',
     title: 'ORTODONCIA 15% OFF',
-    subtitle: 'Instalación de brackets metálicos y estéticos',
+    subtitle: 'Brackets Convencionales y Autoligables con 15% de Descuento',
     image: 'https://i.imgur.com/Yhsj2X9.jpeg',
     accentColor: '#5B2C6F',
     themeClass: 'deepviolet-promo-theme',
-    description: 'Corrige la posición de tus dientes y mejora tu mordida con tecnología ortodóncica moderna. Diseñado para adolescentes y adultos que buscan estética y salud funcional.',
+    description: 'Corrige la posición de tus dientes y mejora tu mordida con tecnología ortodóncica moderna. Aprovecha 15% de descuento en brackets convencionales y autoligables.',
     priceOptions: [
       {
-        label: 'INSTALACIÓN BRACKETS METÁLICOS',
-        price: 'S/ 299',
-        normalPrice: 'S/ 350',
+        label: 'BRACKETS CONVENCIONALES',
+        price: 'S/ 1,020',
+        normalPrice: 'S/ 1,200',
         featured: false,
-        badge: '15% OFF'
+        badge: '15% OFF (AHORRA S/ 180)'
       },
       {
-        label: 'INSTALACIÓN BRACKETS ESTÉTICOS (ZAFIRO)',
-        price: 'S/ 499',
-        normalPrice: 'S/ 590',
+        label: 'BRACKETS AUTOLIGABLES',
+        price: 'S/ 1,275',
+        normalPrice: 'S/ 1,500',
         featured: true,
-        badge: '15% OFF PRO'
+        badge: '15% OFF (AHORRA S/ 225)'
       }
     ],
     schedule: [
@@ -179,25 +179,25 @@ const PROMO_FLYERS_DATA = {
     brand: 'MIADENT',
     category: 'REHABILITACIÓN ORAL',
     title: 'PRÓTESIS DENTAL 20% OFF',
-    subtitle: 'Rehabilitación removible y flexible de alta estética',
+    subtitle: 'Prótesis Total y Parcial Removible con 20% de Descuento',
     image: 'https://i.imgur.com/Yhsj2X9.jpeg',
     accentColor: '#4A154B',
     themeClass: 'primary-promo-theme',
-    description: 'Recupera la seguridad al comer, hablar y sonreír con prótesis anatómicas ligeras, resistentes y de ajuste preciso elaboradas con materiales bio-compatibles.',
+    description: 'Recupera la seguridad al comer, hablar y sonreír con prótesis anatómicas de ajuste preciso y materiales bio-compatibles.',
     priceOptions: [
       {
-        label: 'PRÓTESIS REMOVIBLE ACRÍLICA',
-        price: 'S/ 380',
-        normalPrice: 'S/ 475',
+        label: 'PRÓTESIS TOTAL',
+        price: 'S/ 720',
+        normalPrice: 'S/ 900',
         featured: false,
-        badge: '20% OFF'
+        badge: '20% OFF (AHORRA S/ 180)'
       },
       {
-        label: 'PRÓTESIS FLEXIBLE DEFLEX',
-        price: 'S/ 640',
-        normalPrice: 'S/ 800',
+        label: 'PRÓTESIS PARCIAL REMOVIBLE',
+        price: 'S/ 960',
+        normalPrice: 'S/ 1,200',
         featured: true,
-        badge: '20% OFF MEJOR OPCIÓN'
+        badge: '20% OFF (AHORRA S/ 240)'
       }
     ],
     schedule: [
@@ -265,9 +265,9 @@ const SPECIALTY_SERVICES_DATA = [
     name: 'Ortodoncia y Alineación Dental',
     category: 'Corrección Oclusal',
     iconClass: 'fa-solid fa-arrows-split-up-and-left',
-    shortDescription: 'Diagnóstico y alineación de dientes apiñados o mordida alterada con brackets metálicos o estéticos de zafiro.',
+    shortDescription: 'Diagnóstico y alineación de dientes apiñados o mordida alterada con brackets convencionales o autoligables.',
     fullDescription: 'Planificación cefalométrica integral que restablece la armonía facial y la función masticatoria óptima.',
-    keyBenefits: ['Alineación estética permanente', 'Mejora en la mordida y digestión', 'Opciones discretas y estéticas'],
+    keyBenefits: ['Alineación estética permanente', 'Mejora en la mordida y digestión', 'Brackets convencionales y autoligables'],
     whatsappHook: '¡Hola MIADENT! Deseo agendar una cita para Ortodoncia.'
   },
   {
