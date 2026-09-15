@@ -66,15 +66,14 @@
         "openingHoursSpecification": [
           {
             "@type": "OpeningHoursSpecification",
-            "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
-            "opens": "09:00",
-            "closes": "19:00"
+            "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"],
+            "opens": "10:00",
+            "closes": "20:00"
           },
           {
             "@type": "OpeningHoursSpecification",
-            "dayOfWeek": ["Saturday"],
-            "opens": "09:00",
-            "closes": "13:00"
+            "dayOfWeek": ["Sunday"],
+            "description": "Previa cita"
           }
         ],
         "medicalSpecialty": [
@@ -123,7 +122,7 @@
       <div class="top-bar-inner">
         <div class="top-bar-item schedule">
           <i class="fa-regular fa-clock" aria-hidden="true"></i>
-          <span><strong>L-V:</strong> 9:00 AM – 7:00 PM | <strong>Sáb:</strong> 9:00 AM – 1:00 PM</span>
+          <span><strong>L-Sáb:</strong> 10:00 AM – 8:00 PM | <strong>Dom:</strong> Previa Cita</span>
         </div>
         <div class="top-bar-item contact-actions">
           <a href="tel:902103429" class="top-bar-phone" title="Llamada telefónica directa">
@@ -623,9 +622,8 @@
           <div class="sede-hours-box">
             <div class="hours-header"><i class="fa-regular fa-clock text-purple"></i> Horarios de Atención</div>
             <ul class="hours-list">
-              <li><span>Lunes a Viernes:</span> <strong>9:00 AM – 7:00 PM</strong></li>
-              <li><span>Sábados:</span> <strong>9:00 AM – 1:00 PM</strong></li>
-              <li><span>Domingos y Feriados:</span> <em>Previa cita de urgencia</em></li>
+              <li><span>Lunes a Sábado:</span> <strong>10:00 AM – 8:00 PM</strong></li>
+              <li><span>Domingos:</span> <em>Previa cita</em></li>
             </ul>
           </div>
 

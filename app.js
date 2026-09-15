@@ -78,8 +78,8 @@ const PROMO_FLYERS_DATA = {
       }
     ],
     schedule: [
-      'Lunes a Viernes: 9:00 AM – 7:00 PM',
-      'Sábados: 9:00 AM – 1:00 PM'
+      'Lunes a Sábado: 10:00 AM – 8:00 PM',
+      'Domingos: Previa cita'
     ],
     includes: [
       'Evaluación clínica exhaustiva por la Dra. Martiza',
@@ -119,8 +119,8 @@ const PROMO_FLYERS_DATA = {
       }
     ],
     schedule: [
-      'Lunes a Viernes: 9:00 AM – 7:00 PM',
-      'Sábados: 9:00 AM – 1:00 PM'
+      'Lunes a Sábado: 10:00 AM – 8:00 PM',
+      'Domingos: Previa cita'
     ],
     includes: [
       'Remoción de sarro con cavitador ultrasónico indoloro',
@@ -160,8 +160,8 @@ const PROMO_FLYERS_DATA = {
       }
     ],
     schedule: [
-      'Previa cita coordinada con especialista',
-      'Lunes a Sábado según agenda'
+      'Lunes a Sábado: 10:00 AM – 8:00 PM',
+      'Domingos: Previa cita'
     ],
     includes: [
       'Estudio fotográfico y diagnóstico cefalométrico',
@@ -201,8 +201,8 @@ const PROMO_FLYERS_DATA = {
       }
     ],
     schedule: [
-      'Lunes a Viernes: 9:00 AM – 7:00 PM',
-      'Sábados: 9:00 AM – 1:00 PM'
+      'Lunes a Sábado: 10:00 AM – 8:00 PM',
+      'Domingos: Previa cita'
     ],
     includes: [
       'Toma de impresiones anatómicas de alta precisión',

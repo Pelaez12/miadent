@@ -526,7 +526,7 @@ class TestTier3_CrossFeatureInteractions(BaseMiadentTest):
 class TestTier4_RealWorldAcceptanceScenarios(BaseMiadentTest):
     def test_4_1_patient_landing_and_clinical_trust(self):
         full_text = " ".join(self.dom.all_text_fragments).lower()
-        self.assertTrue('9:00' in full_text or '9:00 am' in full_text or 'horario' in full_text, "Hours missing")
+        self.assertTrue('10:00' in full_text or '10:00 am' in full_text or '9:00' in full_text or 'horario' in full_text, "Hours missing")
         self.assertTrue('miadent' in full_text or 'mia dent' in full_text, "Brand MIADENT missing")
         self.assertTrue('martiza' in full_text or 'dra' in full_text or 'doctora' in full_text, "Doctor trust missing")
 
